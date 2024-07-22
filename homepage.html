@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banpangsawan School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"> <!-- 确保文件名拼写正确 -->
+    <link rel="icon" href="./school.ico">
+    <style>
+        .map-container {
+            width: 50vw;
+            height: 30vh;
+            margin: auto;
+            display: flex; /* 使用 flex 布局 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0; /* 去除边框 */
+        }
+
+        .info {
+            text-align: center;
+            background-color: aqua;
+        }
+
+        body {
+            /* 暂时移除背景图片 */
+            background-color: white;
+            background-size: cover;
+            background-position: top;
+        }
+
+        h2 {
+            width: 300px;
+            height: 50px;
+            background-color: red;
+            color: white; /* 添加字体颜色以提高可见性 */
+            text-align: center; /* 居中文本 */
+            line-height: 50px; /* 垂直居中文本 */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="info">About Banpangsawan School</h1>
+    <p id="first-paragraph">Bapangswan School is a comprehensive educational institution that includes a kindergarten, elementary school, and middle school. The establishment of this school aims to provide educational opportunities to students in the remote areas of northern and central Thailand.</p>
+    <p>We value equal opportunities and an international perspective, offering volunteer project opportunities worldwide. Graduates have achieved greater opportunities.</p>
+    <p>We hope for your participation to enable more students to enjoy greater educational opportunities.</p>
+    <h2>Our Location</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3841.0839435075873!2d99.61853529999999!3d15.6936954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e0e715a9981a3b%3A0x7962f91e3b42f5bc!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Lia4LmJ4Liy4LiZ4Lib4Liy4LiH4Liq4Lin4Lij4Lij4LiE4LmM!5e0!3m2!1szh-CN!2sus!4v1721142766138!5m2!1szh-CN!2sus" 
+        ></iframe>
+    </div>
+    <h2>Wonderful life</h2>
+    <p id="11">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quae harum odio praesentium ratione ducimus placeat officia possimus corporis, alias sequi id perspiciatis! Quisquam porro temporibus neque qui nam inventore?</p>
+    <a href="./donate.html">Donate to us  </a>
+</body>
+</html>

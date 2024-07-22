@@ -1,0 +1,1 @@
+# Tamagotchi02.github.io
